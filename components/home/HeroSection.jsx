@@ -13,7 +13,7 @@ const HeroSection = () => {
                     <div className="lg:flex lg:items-center lg:justify-between">
                         <div className="flex items-center justify-between">
                             <div className="text-xl font-semibold text-gray-700">
-                                <a className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300" href="/">{store_name}</a>
+                                <Link href="/"><a className="text-2xl font-bold text-gray-800 dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300">{store_name}</a></Link>
                             </div>
                             <div className="flex lg:hidden">
                             <button onClick={() => setIsOpen(prev => !prev)} type="button" className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400" aria-label="toggle menu">
