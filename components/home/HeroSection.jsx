@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { hero_images, menu_items, store_name } from '@/config/constants'
+import CreateQuotation from './CreateQuotation';
 
 const HeroSection = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,7 +33,10 @@ const HeroSection = () => {
                     </div>
                 </div>
             </nav>
-            <div className="w-full bg-center bg-cover h-[32rem]" style={{backgroundImage: `url(${hero_images})`}}>
+            <div className="w-full relative bg-center bg-cover h-[32rem]" style={{backgroundImage: `url(${hero_images})`}}>
+                <div className='h-full px-10 relative mx-auto container'>
+                    <CreateQuotation />
+                </div>
                 <div className="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50">
                     <div className="text-cente hidden">
                         <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">Lorem ipsum dolor<span className="text-blue-400 underline">Saas</span></h1>

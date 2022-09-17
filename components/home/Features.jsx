@@ -1,13 +1,9 @@
 import React from 'react'
-import CreateQuotation from './CreateQuotation'
 
 const Features = () => {
   return (
     <section className="bg-white dark:bg-gray-900 pb-10">
         <div className="container relative px-6 py-10 mx-auto">
-            <div className='absolute z-20 -mt-[30rem]'>
-                <CreateQuotation />
-            </div>
             <div >
                 <div className="container px-6 py-10 mx-auto">
                     <h1 className="text-3xl font-semibold text-center text-gray-800 capitalize lg:text-4xl dark:text-white">Lorem Ipsum Dolor</h1>

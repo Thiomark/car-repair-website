@@ -6,7 +6,6 @@ const Footer = () => {
         <footer className="bg-white dark:bg-gray-900 pt-6">
             <div className="container px-6 py-8 mx-auto">
                 <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
- 
                     <div>
                         <div className="text-xs font-medium text-gray-400 uppercase">
                             Getting Started
@@ -16,13 +15,20 @@ const Footer = () => {
                             Installation
                         </a>))}
                     </div>
-                    <iframe className="w-full col-span-2 h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5685.44524905782!2d28.032340654467266!3d-26.144385775869637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c92f2c40d13%3A0x7463dc372a25eb5d!2sRosebank%2C%20Johannesburg%2C%202196!5e0!3m2!1sen!2sza!4v1636359335502!5m2!1sen!2sza"  style={{border: 0}} allowfullscreen="" loading="lazy"></iframe>
+                    <iframe className="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5685.44524905782!2d28.032340654467266!3d-26.144385775869637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c92f2c40d13%3A0x7463dc372a25eb5d!2sRosebank%2C%20Johannesburg%2C%202196!5e0!3m2!1sen!2sza!4v1636359335502!5m2!1sen!2sza"  style={{border: 0}} allowfullscreen="" loading="lazy"></iframe>
+                    
                     <div>
-                        <h3 class="text-gray-700 uppercase dark:text-white">Contact</h3>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+1 526 654 8965</span>
-                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Working Hours</h3>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Monday - Friday: 8am - 5pm</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Saturday: 8am - 3pm</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Sunday: Closed</span>
                     </div>
-
+                    <div>
+                        <h3 class="text-gray-700 uppercase dark:text-white">Contact Us</h3>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">+2726 654 8965</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">example@email.com</span>
+                        <span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">31 Smith Ave, Braamfontein, 2001</span>
+                    </div>
                 </div>
 
                 <hr className="my-10 border-gray-200 dark:border-gray-700" />
